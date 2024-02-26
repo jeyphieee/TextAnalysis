@@ -17,7 +17,7 @@ for (let i = 0; i < images.length; i++) {
 
     imagesLinks.push({
       public_id: result.public_id,
-      url: result.secure_url
+      url: result.secure_url      
     });
 
   } catch (error) {
